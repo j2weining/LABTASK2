@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+
+<body>
+    <form action="login.html" method="GET">
+        <table border="1" class="register">
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <p>Gender:</p>
+                </td>
+                <td>
+                <label><input type="radio" name="gender" value="Lelaki">Lelaki</label>
+                <label><input type="radio" name="gender" value="Wanita">Wanita</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="age">Age:</label>
+                </td>
+                <td>
+                    <input type="text" id="age" name="age" maxlength="2" minlength="1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="notel">Phone Number:</label>
+                </td>
+                <td>
+                    <input type="number" id="phonenum" name="phonenum" maxlength="11" required>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <label for="address">Address:</label>
+                </td>
+                <td>
+                    <textarea id="address" name="address" required
+                    placeholder="Sila Masukkan Alamat."></textarea>
+                </td>
+            </tr>
+
+                <p>State:</p>
+                <select name="state" required>
+                    <option value="" selected></option>
+                    <option value="Johor">Johor</option>
+                    <option value="Kedah">Kedah</option>
+                    <option value="Kelantan">Kelantan</option>
+                    <option value="Melaka">Melaka</option>
+                    <option value="Negeri Sembilan">Negeri Sembilan</option>
+                </select><br><br>
+                <input type="submit" value="Submit">
+        </table>
+
+    </form>
+</body>
+
+</html>

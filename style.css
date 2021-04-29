@@ -1,0 +1,26 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#table{
+    margin-left: 50%;
+    margin-right: 40%;
+    margin-top: 10%;
+    width: 30%;
+    background-color: palevioletred;
+}
+
+body{
+    background-color:pink;
+}
+
+.login{
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.register{
+    margin-left: 35%;
+    margin-right: 40%;
+    width: 30%;
+}
