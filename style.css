@@ -73,13 +73,59 @@ a{
 } /*login text*/
 
 .size{
-    font-size: 18px;
+    font-size: 16px;
 } /*size for input*/
 
 .register{
-    margin-left: 35%;
+    margin-left: 25%;
     margin-right: 40%;
-    width: 30%;
+    width: 50%;
+    background-color: thistle;
+    border-collapse: collapse;
 } /*register table*/
 
+#register{
+    background-color:green;
+    color:white;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    border: none;
+    font-weight: bolder;
+    cursor:pointer;
+} /*register button*/
 
+#reset{
+    background-color:black;
+    color:white;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
+    border: none;
+    font-weight: bolder;
+    cursor:pointer;
+} /*register button*/
+
+.bg{
+    background-color: lightgrey;
+} /*back color for register page*/
+
+tr,td{
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 70px;
+} /*change font for tr & td */
+
+.color{
+    background-color:orchid;
+} /*back color*/
+
+.terms{
+    font-size: 14px;
+} /*change font for terms */
+
+.border{
+    border:  thistle;
+} /*border color*/

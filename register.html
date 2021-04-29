@@ -9,118 +9,144 @@
     <title>Register</title>
 </head>
 
-<body>
-    <form action="login.html" method="GET">
+<body class="bg">
+    <form>
+        <h1 class="h1">Register</h1>
         <table border="1" class="register">
             <tr>
-                <td>
+                <td class="color">
                     <label for="name">Name:</label>
                 </td>
                 <td>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" class="size" required>
                 </td>
             </tr>
             <tr>
-                <td>
-                <p>Gender:</p>
+                <td class="color">
+                    <p>Gender:</p>
                 </td>
                 <td>
-                <label><input type="radio" name="gender" value="Lelaki">Lelaki</label>
-                <label><input type="radio" name="gender" value="Wanita">Wanita</label>
+                    <label><input type="radio" name="gender" value="Male">Male</label>
+                    <label><input type="radio" name="gender" value="Female">Female</label>
                 </td>
             </tr>
 
             <tr>
-                <td>
+                <td class="color">
                     <label for="age">Age:</label>
                 </td>
                 <td>
-                    <input type="text" id="age" name="age" maxlength="2" minlength="1" required>
+                    <input type="text" id="age" name="age" class="size" maxlength="2" minlength="1" required>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="color">
                     <label for="phonenum">Phone Number:</label>
                 </td>
                 <td>
-                    <input type="number" id="phonenum" name="phonenum" maxlength="11" required>
-                </td>
-            </tr>
-        
-            <tr>
-                <td>
-                    <label for="address">Address:</label>
-                </td>
-                <td>
-                    <textarea id="address" name="address" required
-                    placeholder="Sila Masukkan Alamat."></textarea>
+                    <input type="number" id="phonenum" name="phonenum" maxlength="11" class="size" required>
                 </td>
             </tr>
 
             <tr>
+                <td class="color">
+                    <label for="address">Address:</label>
+                </td>
                 <td>
+                    <textarea id="address" name="address" class="size" placeholder="Please Write Your Address."
+                        required></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="color">
                     <p>State:</p>
                 </td>
                 <td>
-                    <select name="state" required>
+                    <select name="state" class="size" required>
                         <option value="" selected></option>
                         <option value="Johor">Johor</option>
                         <option value="Kedah">Kedah</option>
                         <option value="Kelantan">Kelantan</option>
                         <option value="Melaka">Melaka</option>
                         <option value="Negeri Sembilan">Negeri Sembilan</option>
+                        <option value="Pahang">Pahang</option>
+                        <option value="Perak">Perak</option>
+                        <option value="Pulau Pinang">Pulau Pinang</option>
+                        <option value="Sabah">Sabah</option>
+                        <option value="Sarawak">Sarawak</option>
+                        <option value="Terengganu">Terengganu</option>
+                        <option value="Kuala Lumpur">Kuala Lumpur</option>
+                        <option value="Labuan">Labuan</option>
+                        <option value="Putrajaya">Putrajaya</option>
                     </select>
                 </td>
             </tr>
-                
+
             <tr>
-                <td>
+                <td class="color">
                     <label for="uname">Username:</label>
                 </td>
                 <td>
-                    <input type="text" id="uname" name="uname" required>
+                    <input type="text" id="uname" name="uname" class="size" required>
                 </td>
             </tr>
-            
-            <tr>
-                <td>
-                    <label for="password"><p>Password:</p></label>
-                </td>
-                <td>
-                    <input type="password" name="password" minlength="8" maxlength="16" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="cpassword"><p>Confirm Password:</p></label>
-                </td>
-                <td>
-                    <input type="cpassword" name="cpassword" minlength="8" maxlength="16" required>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="cpassword"><p>Terms & Condition</p></label> <input type="checkbox" required>
-                </td>
-                <td>
 
+            <tr>
+                <td class="color">
+                    <label for="password">
+                        <p>Password:</p>
+                    </label>
+                </td>
+                <td>
+                    <input type="password" name="password" minlength="8" maxlength="16" class="size" required>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="color">
+                    <label for="cpassword">
+                        <p>Confirm Password:</p>
+                    </label>
                 </td>
                 <td>
-                    <input type="submit" value="Register">
+                    <input type="password" name="cpassword" minlength="8" maxlength="16" class="size" required>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="color">
+                    <p>Terms & Condition</p>
                 </td>
                 <td>
-                    <input type="reset" value="Reset">
+                    <p class="terms">Please read the Terms and Conditions cafefully before using this website.</p>
+                    <p class="terms">Your access to and use of the Services is conditioned on your
+                        acceptance and compliance with these Terms. These terms apply to all vistors,
+                        users and others who access or use the Service.
+                    </p>
                 </td>
             </tr>
-                
+            <tr>
+                <td colspan="2">
+                    <label for="terms" class="terms">
+                        <input name="terms" type="checkbox" required>
+                        I have Read & Agree to the Terms and Condition.
+                    </label>
+                </td>
+            </tr>
+            <tr class="border">
+                <td>
+                </td>
+                <td>
+                    <input type="submit" value="Register" id="register">
+                </td>
+            </tr>
+            <tr class="border">
+                <td>
+                </td>
+                <td>
+                    <input type="reset" value="Reset" id="reset">
+                </td>
+            </tr>
+
         </table>
 
     </form>
