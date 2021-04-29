@@ -1,44 +1,55 @@
 h1{
-    font-family: sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    text-transform: uppercase;
+    color: white; /* for login table*/
 }
-
+.h1{
+    background-color:slateblue;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-left: 35%;
+    width: 30%; /*for web design module title*/
+}
 #table{
-    margin-left: 50%;
+    margin-left: 55%;
     margin-right: 40%;
-    margin-top: 10%;
+    margin-top: 12%;
     width: 40%;
-    background-color: palevioletred;
-}
+    background-color:mediumpurple;
+    border-collapse: collapse;
+} /* login table*/
 
-body{
-    background-color:pink;
-}
+.body{
+    background-color:lightskyblue;
+    background-image: url(maincover.png);
+    background-position:18% bottom;
+    background-repeat: no-repeat;
+    background-size: 30%;
+} /* login body*/
 
 .login{
     text-transform: uppercase;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
     font-weight: bolder;
     font-size: 20px;
-}
-
-.register{
-    margin-left: 35%;
-    margin-right: 40%;
-    width: 30%;
-}
+} /* text Email address and password*/
 
 a{
     background-color:mediumblue;
     color:white;
-    padding: 10px 15px;
+    padding: 10px 10px;
     text-decoration: none;
     font-weight: bolder;
-}
+    font-family: sans-serif;
+    margin-left: 6%;
+} /*change hyperlink to button*/
 
 .btnlog{
     height: 60px;
-}
+} /*change td size for button*/
 
 #login{
     background-color:green;
@@ -46,8 +57,29 @@ a{
     padding: 10px 15px;
     text-decoration: none;
     font-size: 15px;
+    font-family: sans-serif;
     border: none;
     font-weight: bolder;
-    margin-left: 15%;
+    margin-left: 20%;
     cursor:pointer;
-}
+} /* login button*/
+
+.title{
+    background-color:rebeccapurple;
+} /*title back color*/
+
+.intext{
+    text-align: center;
+} /*login text*/
+
+.size{
+    font-size: 18px;
+} /*size for input*/
+
+.register{
+    margin-left: 35%;
+    margin-right: 40%;
+    width: 30%;
+} /*register table*/
+
+
